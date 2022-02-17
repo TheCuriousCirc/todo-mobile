@@ -12,6 +12,8 @@ target 'todoTest' do
     :hermes_enabled => false
   )
 
+  pod 'RNSqlite2', :path => '../node_modules/react-native-sqlite-2'
+
   target 'todoTestTests' do
     inherit! :complete
     # Pods for testing

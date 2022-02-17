@@ -10,10 +10,17 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "firebase": "^9.6.6",
+    "base-64": "^1.0.0",
+    "events": "^3.3.0",
+    "http": "^0.0.1-security",
+    "pouchdb-adapter-react-native-sqlite": "^3.0.1",
     "react": "17.0.2",
     "react-native": "0.67.2",
-    "react-native-vector-icons": "^9.1.0"
+    "react-native-get-random-values": "^1.7.2",
+    "react-native-sqlite-2": "^3.5.2",
+    "react-native-vector-icons": "^9.1.0",
+    "rxdb": "^11.6.0",
+    "rxjs": "^7.5.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
