@@ -19,9 +19,9 @@ addPouchPlugin(SQLiteAdapter);
 addPouchPlugin(require("pouchdb-adapter-http"));
 addRxPlugin(RxDBReplicationCouchDBPlugin);
 
-const syncURL = "http://admin:k@localhost:5984"; // Replace localhost with a public ip address!
+const syncURL = "https://admin:bmw123@couchdb-dev.buildmywealth.app/";
 const dbName = "todos";
-const todoCollectionURL = `${syncURL}/todos/`;
+const todoCollectionURL = `${syncURL}todos/`;
 
 console.debug("TODO REMOTE URL: ", todoCollectionURL);
 
